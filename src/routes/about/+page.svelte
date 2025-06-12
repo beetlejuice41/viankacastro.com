@@ -1,0 +1,1 @@
+<h1 class="text-3xl">This is the about page</h1>

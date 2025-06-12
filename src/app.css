@@ -1,2 +1,11 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+body {
+    background: #f7f2f8;
+}
+
+@theme {
+    --color-pink-dark: #fa90fb;
+    --color-pink-light: #fec9fc;
+}

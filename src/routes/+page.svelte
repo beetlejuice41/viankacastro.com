@@ -1,5 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    // your script goes here
+</script>
 
+<style>
+    /* your styles go here */
+</style>
 
-<div class="text-6xl bg-amber-950 hover:bg-amber-200">Hello World</div>
+<main class="app">
+    <div class="main">
+        <h1 class="text-2xl">Home page</h1>
+    </div>
+</main>
+
