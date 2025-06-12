@@ -28,7 +28,7 @@
         <button onclick={()=> currentCategory = ""}>Show All by Grid</button>
 
         {#each data.categories.rows as category}
-            <button class="bg-primary-paler w-full py-2 cursor-pointer hover:bg-primary-paley hover:text-primary-palest transition-all ease-in-out" 
+            <button class="{ currentCategory === category.id ? "border-b-2 border-b-primary-shade text-primary-shade" : ""} text-primary-shade bg-none w-full py-2 cursor-pointer hover:bg-primary-shade hover:text-primary-fifty border-b-primary-fifty transition-all ease-in-out" 
                 onclick={() => currentCategory = category.id}
             >
                 {category.data.name}

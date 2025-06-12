@@ -17,7 +17,7 @@
   open={openState}
   onOpenChange={(e) => (openState = e.open)}
   triggerBase="h-fit w-full hover:brightness-50 object-cover transition-all ease-in-out {className}"
-  contentBase="card bg-primary-palest p-4 space-y-4 shadow-xl overflow-hidden rounded-xl max-h-screen"
+  contentBase="card bg-primary-fifty p-4 space-y-4 shadow-xl overflow-hidden rounded-xl max-h-screen"
   backdropClasses="backdrop-blur-sm"
 >
     {#snippet trigger()}
