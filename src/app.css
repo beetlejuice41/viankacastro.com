@@ -1,11 +1,16 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
-body {
-    background: #f7f2f8;
-}
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '@skeletonlabs/skeleton/themes/cerberus';
+
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
     --color-pink-dark: #fa90fb;
     --color-pink-light: #fec9fc;
+    --color-pink-bg: #f7f2f8;
 }
