@@ -2,6 +2,19 @@
     import PortfolioModal from './PortfolioModal.svelte';
     
     let { data } = $props();
+
+    let currentCategory = $state("");
+
+    function checkCategory(postCategory : string) {
+        if (currentCategory === "") {
+            return "visible"
+        } else if (currentCategory === postCategory) {
+            return "visible"
+        } else {
+            return "hidden"
+        }
+    }
+
 </script>
 
 <style>
@@ -11,15 +24,23 @@
 <main class="container p-8">
     <h1 class="text-2xl text-center">Online Portfolio</h1>
     <div class="flex flex-col space-x-3 gap-2">
-        <button>Show All by Grid</button>
+
+        <button onclick={()=> currentCategory = ""}>Show All by Grid</button>
+
         {#each data.categories.rows as category}
-            <button class="bg-pink-light w-full py-2 cursor-pointer hover:bg-pink-dark transition-all ease-in-out">{category.data.name}</button>
+            <button class="bg-primary-paler w-full py-2 cursor-pointer hover:bg-primary-paley hover:text-primary-palest transition-all ease-in-out" 
+                onclick={() => currentCategory = category.id}
+            >
+                {category.data.name}
+            </button>
+        {/each}
+
+    </div>
+
+    <div class="pt-10 flex flex-col">
+        {#each data.posts.rows as post}
+            <PortfolioModal post={post} className={checkCategory(post.data.category)}/>
         {/each}
     </div>
 
-    <div class="pt-10 flex flex-col overflow-hidden">
-        {#each data.posts.rows as post}
-            <PortfolioModal post={post} />
-        {/each}
-    </div>
 </main>
