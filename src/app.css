@@ -5,26 +5,43 @@
 @import '@skeletonlabs/skeleton/optional/presets';
 @import '@skeletonlabs/skeleton/themes/cerberus';
 
+
 @source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@import '@fontsource-variable/albert-sans';
+
 @theme {
-    --color-pink-dark: #fa90fb;
-    --color-pink-light: #fec9fc;
-    --color-pink-bg: #f7f2f8;
-    --color-primary-fifty: #faf4f9;
-    --color-primary-hundred: #e1ccfa;
-    --color-primary-two: #c8a5fb;
-    --color-primary-three: #af7dfd;
-    --color-primary-four: #9656fe;
-    --color-primary-shade: #7d2eff;
-    --color-primary-six: #6725d3;
-    --color-primary-seven: #511ca7;
-    --color-primary-eight: #3a127c;
-    --color-primary-nine: #240950;
-    --color-primary-ninefifty: #0e0024;
-    
+    --color-primary-fifty: #f7f7fa;
+    --color-primary-hundred: #d5d6e6;
+    --color-primary-two: #b3b5d1;
+    --color-primary-three: #9095bd;
+    --color-primary-four: #6e74a8;
+    --color-primary-shade: #4c5394;
+    --color-primary-six: #434982;
+    --color-primary-seven: #393f70;
+    --color-primary-eight: #30365e;
+    --color-primary-nine: #262c4c;
+    --color-primary-ninefifty: #1d223a;
+    --color-primary-highlight: #fefedf;
+    --color-secondary-fifty: #f7f2f4;
+    --color-secondary-hundred: #efd1df;
+    --color-secondary-two: #e8afca;
+    --color-secondary-three: #e08eb5;
+    --color-secondary-four: #d96ca0;
+    --color-secondary-shade: #d14b8b;
+    --color-secondary-six: #c03c7d;
+    --color-secondary-seven: #ae2d6f;
+    --color-secondary-eight: #9d1e61;
+    --color-secondary-nine: #8b0f53;
+    --color-secondary-ninefifty: #7a0045;
+    --color-backup-highlight: #d4d8f0;
+}
+
+[data-theme='cerberus'] {
+    --heading-font-family: 'Albert Sans Variable', sans-serif;
+    --base-font-family: "Albert Sans Variable", "sans-serif";
 }
 
 /*  */

@@ -36,7 +36,7 @@
             <PortfolioCarousel images={post.data.carouselgallery} firstimage={post.data.image.url} />
             <div class="div">
                 <h1 class="text-3xl">{post.data.name}</h1>
-                <h2 class="text-xl">{post.data.description}</h2>
+                <h2 class="text-md">{post.data.description}</h2>
             </div>
         </div>
 
