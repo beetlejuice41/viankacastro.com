@@ -25,10 +25,10 @@
     <h1 class="text-2xl text-center heading-font-weight">Online Portfolio</h1>
     <div class="flex flex-col space-x-3 gap-2 pt-4">
 
-        <button onclick={()=> currentCategory = ""}>Show All by Grid</button>
+        <button class="text-secondary-shade" onclick={()=> currentCategory = ""}>Show All by Grid</button>
 
         {#each data.categories.rows as category}
-            <button class="{ currentCategory === category.id ? "border-b-2 border-b-primary-shade text-primary-shade" : ""} text-primary-shade bg-none w-full py-2 cursor-pointer hover:bg-primary-hundred hover:text-primary-shade border-b-primary-fifty transition-all ease-in-out" 
+            <button class="{ currentCategory === category.id ? "bg-primary-hundred" : ""} text-primary-shade bg-none w-full py-2 cursor-pointer hover:bg-primary-hundred hover:text-primary-shade border-b-primary-fifty transition-all ease-in-out" 
                 onclick={() => currentCategory = category.id}
             >
                 {category.data.name}
