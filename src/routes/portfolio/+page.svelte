@@ -21,7 +21,7 @@
     /* your styles go here */
 </style>
 
-<main class="container p2">
+<main class="container p-3">
     <h1 class="text-2xl text-center heading-font-weight">Online Portfolio</h1>
     <div class="flex flex-col space-x-3 gap-2 pt-4">
 

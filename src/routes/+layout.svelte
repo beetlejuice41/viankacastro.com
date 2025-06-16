@@ -23,10 +23,10 @@ p = padding
 		<div class={`flex flex-col gap-8 items-center justify-around p-8 fixed inset-0 bg-primary-shade text-2xl heading-font-weight z-40 transform transition-transform duration-500 ease-in-out
     ${isOpen ? 'translate-y-0' : '-translate-y-full'} 
     md:flex md:flex-col md:items-center md:space-x-6`}>
-			<a href="/" class="text-primary-fifty hover:border-b-4" onclick={() => isOpen = false}>Home</a>
-			<a href="/about" class="text-primary-fifty hover:border-b-4" onclick={() => isOpen = false}>About</a>
-			<a href="/portfolio" class="text-primary-fifty hover:border-b-4" onclick={() => isOpen = false}>Portfolio</a>
-			<a href="/contact" class="text-primary-fifty hover:border-b-4" onclick={() => isOpen = false}>Contact</a>
+			<a href="/" class="text-primary-fifty" onclick={() => isOpen = false}>Home</a>
+			<a href="/about" class="text-primary-fifty" onclick={() => isOpen = false}>About</a>
+			<a href="/portfolio" class="text-primary-fifty" onclick={() => isOpen = false}>Portfolio</a>
+			<a href="/contact" class="text-primary-fifty" onclick={() => isOpen = false}>Contact</a>
 			<a href="https://drive.google.com/file/d/1VJrDwUQoehNqC5MMooYDDAxZCnAVI5ae/view?usp=sharing" target="undefined" class="bg-secondary-shade rounded-full hover:bg-secondary-four text-center text-white p-2 w-full">Download CV</a>
 		</div>
 		<button class=" text-gray-700 focus:outline-none flex align-middle py-1 z-50"
@@ -47,7 +47,7 @@ p = padding
 	{@render children()}
 
 	<!-- footer -->
-	<div class="flex flex-col p-8">
+	<div class="flex flex-col p-8 w-full">
 		<img src="https://s3clients.krokismedia.com/viankacastro/logo%20-%20main%20-%20with%20text.svg" class="h-20 w-50 self-center" alt="Logo" >
 		<p class="py-8">This is a paragraph to describe your business. Fill it to your heart's content.</p>
 		<div class="flex flex-row gap-5 justify-around">
