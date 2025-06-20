@@ -7,7 +7,13 @@ export const load = async ({ fetch, params }) => {
             'x-plasmic-api-cms-tokens': `${CMS_ID}:${CMS_PUBLIC_TOKEN}`
         }
     });
-	const categories = await res.json();
+	const categories = await res.json().then(
+        // sort data.rows by data.rows.priotity in descending order
+        (data : any) => {
+            data.rows.sort((a : any, b : any) => (a.data.sortorder || 0) - (b.data.sortorder || 0));
+            return data;
+        }
+    );;
 
     const res2 = await fetch(`https://data.plasmic.app/api/v1/cms/databases/jMmoH9s9ukJ6nur3oW2fMo/tables/posts/query`, {
         headers : {
