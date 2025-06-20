@@ -37,6 +37,7 @@
     --color-secondary-nine: #8b0f53;
     --color-secondary-ninefifty: #7a0045;
     --color-backup-highlight: #d4d8f0;
+    --color-neutral:#dfe0ff;
 }
 
 [data-theme='cerberus'] {
