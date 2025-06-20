@@ -14,7 +14,18 @@ export const load = async ({ fetch, params }) => {
             'x-plasmic-api-cms-tokens': `${CMS_ID}:${CMS_PUBLIC_TOKEN}`
         }
     });
-	const posts = await res2.json();
+	let posts = await res2.json().then(
+        // sort data.rows by data.rows.priotity in descending order
+        (data : any) => {
+            data.rows.sort((a : any, b : any) => (b.data.priority || 0) - (a.data.priority || 0));
+            return data;
+        }
+    );
+    
+    // let test = posts.rows.map((post : any) => post.data.priority + " " + post.data.name )
+    // console.log(test)
+
+
 
 	return { categories, posts };
 

@@ -4,8 +4,6 @@
 
   let { post, className }= $props();
 
-  console.log(post)
-
   let openState = $state(false);
 
   function modalClose() {
