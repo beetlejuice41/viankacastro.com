@@ -1,0 +1,8 @@
+{
+	"name": "vianka-portfolio-2025",
+	"main": ".svelte-kit/cloudflare/_worker.js",
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".svelte-kit/cloudflare",
+	}
+}
