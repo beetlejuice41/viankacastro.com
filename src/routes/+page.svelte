@@ -74,13 +74,13 @@
        </div>
        
          <!-- skills -->
-       <div class="bg-neutral p-4 rounded-md">
+       <div class="bg-gray-100 p-4 rounded-md">
         <h2 class="text-xl heading-font-weight">My Skills</h2>
         <p class="text-gray-500">I have expertise in various design tools and technologies, including Figma, Adobe Creative Suite, and web development frameworks.</p>
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 p-4 max-w-6xl mx-auto">
           <!-- Card 1 -->
          <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
-         <img src="https://placehold.co/600x400" alt="Image 1" class="w-full h-40 object-cover">
+         <img src="https://placehold.co/600x400" alt="graphicdesign" class="w-full h-40 object-cover">
             <div class="p-4 flex flex-col flex-1">
               <h3 class="text-lg font-semibold leading-tight min-h-[3.5rem]">Graphic Design and Branding</h3>
               <p class="text-sm text-gray-600">Short description here for consistency.</p>
@@ -88,7 +88,7 @@
         </div>
           <!-- Card 2 -->
          <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
-         <img src="https://placehold.co/600x400" alt="Image 2" class="w-full h-40 object-cover">
+         <img src="https://placehold.co/600x400" alt="videoediting" class="w-full h-40 object-cover">
             <div class="p-4 flex flex-col flex-1">
               <h3 class="text-lg font-semibold leading-tight min-h-[3.5rem]">Video Editing and Motion Graphics</h3>
               <p class="text-sm text-gray-600">Short description here for consistency.</p>
@@ -96,7 +96,7 @@
         </div>
           <!-- Card 3 -->
          <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
-         <img src="https://placehold.co/600x400" alt="Image 3" class="w-full h-40 object-cover">
+         <img src="https://placehold.co/600x400" alt="digitalads" class="w-full h-40 object-cover">
             <div class="p-4 flex flex-col flex-1">
               <h3 class="text-lg font-semibold leading-tight min-h-[3.5rem]">Digital Ads and Marketing</h3>
               <p class="text-sm text-gray-600">Scroll-stopping visuals that capture attention and drive engagement.</p>
@@ -104,7 +104,7 @@
         </div>
           <!-- Card 4 -->
          <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
-         <img src="https://placehold.co/600x400" alt="Image 4" class="w-full h-40 object-cover">
+         <img src="https://placehold.co/600x400" alt="illustrations" class="w-full h-40 object-cover">
             <div class="p-4 flex flex-col flex-1">
               <h3 class="text-lg font-semibold leading-tight min-h-[3.5rem]">Illustrations</h3>
               <p class="text-sm text-gray-600">Short description here for consistency.</p>

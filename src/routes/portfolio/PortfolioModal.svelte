@@ -14,7 +14,7 @@
 <Modal
   open={openState}
   onOpenChange={(e) => (openState = e.open)}
-  triggerBase="h-fit w-full hover:brightness-50 object-cover transition-all ease-in-out max-w-xl mx-auto {className}"
+  triggerBase="h-fit w-full hover:brightness-80 object-cover transition-all ease-in-out max-w-xl mx-auto {className}"
   contentBase="card bg-primary-fifty p-4 space-y-4 shadow-xl rounded-xl max-h-screen max-w-2xl mx-auto"
   backdropClasses="backdrop-blur-sm"
 >
