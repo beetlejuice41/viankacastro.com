@@ -32,10 +32,6 @@
 		-Within a span of weeks, I’ve worked with tailors from TESDA to create my vision from paper to runway. The brief asked designers to create something that would revolutionize or create the modern version of the Baro’t saya.
 		-My work was awarded the Fashion Visionary Award by SOFA Design Institute, and later on was featured at The Podium Mall in Ortigas.
 		-This project deepened my appreciation for the Filipino culture and hone my fashion designing skills at the same time. 
-
-
-    - I’m currently based in Imus, Cavite. Outside of work, I love playing tactical team-based competitive games like Valorant in which I love exercising my leadership skills and teamwork skills, collaborating with people and strategizing. I’ve entered 2 tournaments in which I claimed support roles for the team.
-        - Button: see my gaming profile konect.gg
             </p>
         </div>
     </div>
