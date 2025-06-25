@@ -16,34 +16,51 @@ p = padding
 -->
 
 <div class="bg-primary-fifty text-primary-ninefifty">
-	<div class=" flex flex-row justify-between p-6 sticky top-0 z-50 bg-primary-fifty">
-		<a href="/" class="h-10 w-10" onclick={() => isOpen = false}>
-		<img src="https://s3clients.krokismedia.com/viankacastro/main-logomark.svg" class="h-10 w-10" alt="logo">
-		</a>
-		<div class={`flex flex-col gap-8 items-center justify-around p-8 fixed inset-0 bg-primary-eight text-2xl heading-font-weight z-40 transform transition-transform duration-500 ease-in-out
-    ${isOpen ? 'translate-y-0' : '-translate-y-full'} 
-    md:flex md:flex-col md:items-center md:space-x-6`}>
-			<!-- Navigation links -->
-			<a href="/" class="text-primary-fifty" onclick={() => isOpen = false}>Home</a>
-			<a href="/about" class="text-primary-fifty" onclick={() => isOpen = false}>About</a>
-			<a href="/portfolio" class="text-primary-fifty" onclick={() => isOpen = false}>Portfolio</a>
-			<a href="/contact" class="text-primary-fifty" onclick={() => isOpen = false}>Contact</a>
-			<a href="https://drive.google.com/file/d/1VJrDwUQoehNqC5MMooYDDAxZCnAVI5ae/view?usp=sharing" target="undefined" class="bg-secondary-shade rounded-full hover:bg-secondary-fifty text-center hover:text-secondary-shade p-2 w-full transition-colors text-secondary-fifty">Download CV</a>
-		</div>
-		<button class=" text-gray-700 focus:outline-none flex align-middle py-1 z-50"
-    		onclick= {() => (isOpen = !isOpen)}
-    		aria-label="Toggle menu">
-    		<svg class={`w-6 h-6 transition-colors duration-300 ${isOpen ? 'text-white' : 'text-gray-800'}`}
-    fill="none"
-    stroke="currentColor"
-    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-			<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-			d={isOpen
-        ? "M6 18L18 6M6 6l12 12"
-        : "M4 6h16M4 12h16M4 18h16"} />
-		</svg>
-		</button> 
-	</div>
+	<div class="flex flex-row justify-between items-center p-6 sticky top-0 z-50 bg-primary-fifty">
+  <!-- Logo -->
+  <a href="/" class="h-10 w-10" onclick={() => isOpen = false}>
+    <img src="https://s3clients.krokismedia.com/viankacastro/main-logomark.svg" class="h-10 w-10" alt="logo">
+  </a>
+
+  <!-- Desktop Nav (shown from md and up) -->
+  <div class="hidden md:flex gap-8 items-center text-primary-fifty md:text-primary-shade text-base heading-font-weight">
+    <a href="/" class="hover:underline">Home</a>
+    <a href="/about" class="hover:underline">About</a>
+    <a href="/portfolio" class="hover:underline">Portfolio</a>
+    <a href="/contact" class="hover:underline">Contact</a>
+    <a href="https://drive.google.com/file/d/1VJrDwUQoehNqC5MMooYDDAxZCnAVI5ae/view?usp=sharing" target="_blank"
+      class="bg-secondary-shade rounded-full hover:bg-secondary-fifty text-center hover:text-secondary-shade px-4 py-2 transition-colors text-secondary-fifty">
+      Download CV
+    </a>
+  </div>
+
+  <!-- Hamburger Button (only visible on mobile) -->
+  <button class="md:hidden text-gray-700 focus:outline-none z-50"
+    onclick={() => (isOpen = !isOpen)}
+    aria-label="Toggle menu">
+    <svg class={`w-6 h-6 transition-colors duration-300 ${isOpen ? 'text-white' : 'text-gray-800'}`}
+      fill="none" stroke="currentColor"
+      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d={isOpen
+          ? "M6 18L18 6M6 6l12 12"
+          : "M4 6h16M4 12h16M4 18h16"} />
+    </svg>
+  </button>
+
+  <!-- Mobile Nav (slide-in, only visible on mobile) -->
+  <div class={`md:hidden flex flex-col gap-8 items-center justify-around p-8 fixed inset-0 bg-primary-eight text-2xl heading-font-weight z-40 transform transition-transform duration-500 ease-in-out
+    ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}>
+    <a href="/" class="text-primary-fifty" onclick={() => isOpen = false}>Home</a>
+    <a href="/about" class="text-primary-fifty" onclick={() => isOpen = false}>About</a>
+    <a href="/portfolio" class="text-primary-fifty" onclick={() => isOpen = false}>Portfolio</a>
+    <a href="/contact" class="text-primary-fifty" onclick={() => isOpen = false}>Contact</a>
+    <a href="https://drive.google.com/file/d/1VJrDwUQoehNqC5MMooYDDAxZCnAVI5ae/view?usp=sharing" target="_blank"
+      class="bg-secondary-shade rounded-full hover:bg-secondary-fifty text-center hover:text-secondary-shade p-2 w-full transition-colors text-secondary-fifty">
+      Download CV
+    </a>
+  </div>
+</div>
 
 	{@render children()}
 
