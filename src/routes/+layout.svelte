@@ -98,6 +98,10 @@ p = padding
 				<a href="/contact" class="text-primary-four hover:text-secondary-shade">Contact</a>
 			</div>
 		</div>
+    <div class="flex flex-col justify-center items-center">
+      <p class="text-xs text-primary-four">Website proudly made by me 😊🌸</p>
+      <p class="text-primary-three">© 2025 Vianka Castro</p>
+    </div>
 
 	</div>
 </div>

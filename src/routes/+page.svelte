@@ -1,5 +1,6 @@
 <script>
     /* your script goes here */
+    let videoId = "5WCHM02p9XY";
 </script>
 
 <style>
@@ -7,28 +8,32 @@
 </style>
 
 <main class="app">
-    <div class="main p-4 mb-12 md:pb-16 lg:pb-20 max-w-6xl mx-auto">
+    <div class="main mb-12 md:pb-16 lg:pb-20">
         <!-- hero -->
-        <div class="py-6 leading-loose">
+        <div class="py-6 leading-loose max-w-7xl mx-auto p-6">
         <h1 class="text-2xl heading-font-weight leading-tight">I help companies turn big ideas into bold visuals — through thoughtful branding, digital design, and creative direction. </h1>
-       <p class="text-gray-500">Welcome to the home page!</p>
+       </div>
+       <div class="w-full aspect-video">
+          <iframe
+          class="w-full h-full pointer-events-none"
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoId}&modestbranding=1&rel=0&showinfo=0&playsinline=1`}
+          title="YouTube video"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+          </iframe>
        </div>
        
-         <!-- about me -->
-       <div class="py-4">
-        <h2 class="text-xl heading-font-weight">About Vianka Lorraine</h2>
-        <p class="text-gray-500">I am a designer with a passion for creating beautiful and functional designs. I have experience in various design fields including web design, branding, and illustration.</p>
-       </div>
        <!-- portfolio -->
        <div>
-        <div class="flex flex-row justify-between">
+        <div class="flex flex-row justify-between max-w-7xl mx-auto p-6">
           <h2 class="text-xl heading-font-weight">Case Studies</h2>
           <a href="/portfolio" class="text-secondary-shade transition-colors flex flex-row">View All
             <svg class="ml-2 mt-1" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M7 1L5.6 2.5L13 10l-7.4 7.5L7 19l9-9z"/></svg>
           </a>
         </div> 
         <!-- scrollable photos of featured work. when clicked, it will take to the portfolio page and open the modal -->
-        <div class="flex flex-row overflow-x-auto py-4 snap-x snap-mandatory scrollbar-hide md:overflow-visible">
+        <div class="flex flex-row overflow-x-auto snap-x snap-mandatory scrollbar-hide md:overflow-visible max-w-7xl mx-auto">
           <div class="flex gap-4 px-4 pb-4 snap-x snap-mandatory md:grid md:grid-cols-3 md:gap-6 md:overflow-visible">
           <!-- card 1 -->
             <div class="min-w-[80%] snap-start bg-white rounded-xl shadow-md overflow-hidden aspect-[4/5] md:aspect-auto flex flex-col">
@@ -67,36 +72,30 @@
         
        </div>
 
-       <!-- contact me -->
-       <div class="">
-        <h2 class="text-xl heading-font-weight">Contact Me</h2>
-        <p class="text-gray-500">Feel free to reach out if you have any questions or would like to work together!</p>
-       </div>
-       
          <!-- skills -->
-       <div class="bg-gray-100 p-4 rounded-md">
-        <h2 class="text-xl heading-font-weight">My Skills</h2>
-        <p class="text-gray-500">I have expertise in various design tools and technologies, including Figma, Adobe Creative Suite, and web development frameworks.</p>
-        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 p-4 max-w-6xl mx-auto">
+       <div class="bg-gray-100 p-4 rounded-md max-w-7xl mx-auto p-6">
+        <h2 class="text-xl heading-font-weight">My Services</h2>
+        <p class="text-gray-500">I have expertise in various design tools and technologies, including Figma and Adobe Creative Suite.</p>
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 p-4 max-w-7xl mx-auto">
           <!-- Card 1 -->
          <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
-         <img src="https://placehold.co/600x400" alt="graphicdesign" class="w-full h-40 object-cover">
+         <img src="https://r2.viankacastro.com/IRMO%20Letterhead%20BC.jpg" alt="graphicdesign" class="w-full h-40 object-cover">
             <div class="p-4 flex flex-col flex-1">
               <h3 class="text-lg font-semibold leading-tight min-h-[3.5rem]">Graphic Design and Branding</h3>
-              <p class="text-sm text-gray-600">Short description here for consistency.</p>
+              <p class="text-sm text-gray-600">Bold visuals and cohesive branding that make your message unforgettable.</p>
           </div>
         </div>
           <!-- Card 2 -->
          <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
-         <img src="https://placehold.co/600x400" alt="videoediting" class="w-full h-40 object-cover">
+         <img src="https://r2.viankacastro.com/Tiktok%20and%20Facebook%20Reels.jpg" alt="videoediting" class="w-full h-40 object-cover">
             <div class="p-4 flex flex-col flex-1">
               <h3 class="text-lg font-semibold leading-tight min-h-[3.5rem]">Video Editing and Motion Graphics</h3>
-              <p class="text-sm text-gray-600">Short description here for consistency.</p>
+              <p class="text-sm text-gray-600">Dynamic edits and eye-catching motion that bring your story to life.</p>
           </div>
         </div>
           <!-- Card 3 -->
          <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
-         <img src="https://placehold.co/600x400" alt="digitalads" class="w-full h-40 object-cover">
+         <img src="https://r2.viankacastro.com/socmedthumbnail1.png" alt="digitalads" class="w-full h-40 object-cover">
             <div class="p-4 flex flex-col flex-1">
               <h3 class="text-lg font-semibold leading-tight min-h-[3.5rem]">Digital Ads and Marketing</h3>
               <p class="text-sm text-gray-600">Scroll-stopping visuals that capture attention and drive engagement.</p>
@@ -104,21 +103,14 @@
         </div>
           <!-- Card 4 -->
          <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
-         <img src="https://placehold.co/600x400" alt="illustrations" class="w-full h-40 object-cover">
+         <img src="https://r2.viankacastro.com/Pol%20Purol%20Book%20Cover%20Actual.jpg" alt="illustrations" class="w-full h-40 object-cover">
             <div class="p-4 flex flex-col flex-1">
-              <h3 class="text-lg font-semibold leading-tight min-h-[3.5rem]">Illustrations</h3>
-              <p class="text-sm text-gray-600">Short description here for consistency.</p>
+              <h3 class="text-lg font-semibold leading-tight min-h-[3.5rem]">Digital Illustrations</h3>
+              <p class="text-sm text-gray-600">Custom illustrations that add character, charm, and clarity to your brand.</p>
           </div>
         </div>
       </div>
        </div>
-
-         <!-- testimonials -->
-       <div class="">
-        <h2 class="text-xl heading-font-weight">Testimonials</h2>
-        <p class="text-gray-500">Here's what some of my clients have to say about my work.</p>
-       </div>
-
     </div>
 </main>
 
