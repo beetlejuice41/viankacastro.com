@@ -29,7 +29,7 @@
        <!-- portfolio -->
        <div>
         <div class="flex flex-row justify-between max-w-7xl mx-auto p-6">
-          <h2 class="text-xl heading-font-weight">Case Studies</h2>
+          <h2 class="text-xl heading-font-weight ">Case Studies</h2>
           <a href="/portfolio" class="text-secondary-shade transition-colors flex flex-row">View All
             <svg class="ml-2 mt-1" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M7 1L5.6 2.5L13 10l-7.4 7.5L7 19l9-9z"/></svg>
           </a>
@@ -75,7 +75,7 @@
        </div>
 
          <!-- skills -->
-       <div class="p-4 rounded-md max-w-7xl mx-auto p-6">
+       <div class="rounded-md max-w-7xl mx-auto p-6">
         <h2 class="text-3xl heading-font-weight text-center mb-4">My Services</h2>
         <p class="text-gray-500 text-center mb-6">I offer creative solutions tailored to elevate your brand—from standout visuals to strategic storytelling.</p>
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 p-4 max-w-7xl mx-auto">

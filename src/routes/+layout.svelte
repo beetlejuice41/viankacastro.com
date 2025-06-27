@@ -89,7 +89,7 @@ p = padding
 				<h3 class="text-xl font-bold">My Work</h3>
 				<a href="/portfolio" class="text-primary-four hover:text-secondary-shade">Portfolio</a>
 				<a href="/casestudy" class="text-primary-four hover:text-secondary-shade">Case Studies</a>
-				<a href="" class="text-primary-four hover:text-secondary-shade">Demo Reel</a>
+				<a href="/demoreel" class="text-primary-four hover:text-secondary-shade">Demo Reel</a>
 				</div>
 
 			<div class="py-8 flex flex-col gap-4">

@@ -2,12 +2,12 @@
     <section class="flex flex-col md:flex-row w-full h-auto md:h-[500px] px-4 sm:px-6 md:px-12 lg:px-16 xl:px-24 2xl:px-32 py-12 max-w-screen-2xl mx-auto">
   <!-- Right Side: Image on desktop, shown first on mobile -->
         <div class="order-1 md:order-2 w-full md:w-1/2 h-64 md:h-full p-4 gap-8">
-        <img src="https://r2.viankacastro.com/M23A1291.JPG" alt="portrait" class="w-full h-full object-cover" />
+        <img src="https://r2.viankacastro.com/M23A1291.JPG" alt="portrait" class="w-full h-full object-cover rounded-2xl shadow-lg" />
         </div>
 
   <!-- Left Side: Text -->
         <div class="order-2 md:order-1 w-full md:w-1/2 flex flex-col justify-center p-4 space-y-4 object-cover md:object-fill bg-cover text-primary-shade">   
-        <h2 class="text-2xl heading-font-weight">About Vianka</h2>
+        <h2 class="text-4xl heading-font-weight">About Vianka</h2>
         <p class="text-base text-gray-700">My name's Vianka Castro and I’m a designer, storyteller, and a visual thinker. I value intentional design carefully crafted to help brands reach the right people.</p>
         </div>
     </section>
