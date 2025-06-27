@@ -21,7 +21,7 @@
     /* your styles go here */
 </style>
 
-<main class="main p-4 mb-12 md:pb-16 lg:pb-20 max-w-6xl mx-auto">
+<main class="main p-4 mb-12 md:pb-16 lg:pb-20 max-w-7xl mx-auto">
     <h1 class="text-2xl text-center heading-font-weight">Online Portfolio</h1>
     <div class="flex self-center justify-center pt-4">
         <button class="text-secondary-shade" onclick={()=> currentCategory = ""}>Show All by Grid</button>

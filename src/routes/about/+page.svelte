@@ -11,7 +11,7 @@
         <p class="text-base text-gray-700">My name's Vianka Castro and I’m a designer, storyteller, and a visual thinker. I value intentional design carefully crafted to help brands reach the right people.</p>
         </div>
     </section>
-    <div class="main p-4 mb-12 md:pb-16 lg:pb-20 max-w-6xl mx-auto">
+    <div class="main p-4 mb-12 md:pb-16 lg:pb-20 max-w-7xl mx-auto">
        <!-- what I do -->
         <div class="">
         <h1 class="text-xl heading-font-weight leading-tight">What I Do</h1>

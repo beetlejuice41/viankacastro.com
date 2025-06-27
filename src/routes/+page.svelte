@@ -10,10 +10,12 @@
 <main class="app">
     <div class="main mb-12 md:pb-16 lg:pb-20">
         <!-- hero -->
-        <div class="py-6 leading-loose max-w-7xl mx-auto p-6">
+        <div class="py-6 leading-loose max-w-7xl mx-auto p-6 flex flex-col gap-3">
         <h1 class="text-2xl heading-font-weight leading-tight">I help companies turn big ideas into bold visuals — through thoughtful branding, digital design, and creative direction. </h1>
-       </div>
-       <div class="w-full aspect-video">
+        <a href="/portfolio" class="text-secondary-shade transition-colors flex flex-row">View Portfolio →
+          </a>
+      </div>
+       <div class="w-full aspect-video mb-6">
           <iframe
           class="w-full h-full pointer-events-none"
           src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoId}&modestbranding=1&rel=0&showinfo=0&playsinline=1`}
@@ -34,7 +36,7 @@
         </div> 
         <!-- scrollable photos of featured work. when clicked, it will take to the portfolio page and open the modal -->
         <div class="flex flex-row overflow-x-auto snap-x snap-mandatory scrollbar-hide md:overflow-visible max-w-7xl mx-auto">
-          <div class="flex gap-4 px-4 pb-4 snap-x snap-mandatory md:grid md:grid-cols-3 md:gap-6 md:overflow-visible">
+          <div class="flex gap-4 px-4 pb-4 snap-x snap-mandatory md:grid md:grid-cols-3 md:gap-6 md:overflow-visible md:max-h-[50vh]">
           <!-- card 1 -->
             <div class="min-w-[80%] snap-start bg-white rounded-xl shadow-md overflow-hidden aspect-[4/5] md:aspect-auto flex flex-col">
               <img src="https://r2.viankacastro.com/logos/thumbnail.png" alt="Project 1" class="w-full h-2/3 object-cover">
@@ -73,9 +75,9 @@
        </div>
 
          <!-- skills -->
-       <div class="bg-gray-100 p-4 rounded-md max-w-7xl mx-auto p-6">
-        <h2 class="text-xl heading-font-weight">My Services</h2>
-        <p class="text-gray-500">I have expertise in various design tools and technologies, including Figma and Adobe Creative Suite.</p>
+       <div class="p-4 rounded-md max-w-7xl mx-auto p-6">
+        <h2 class="text-3xl heading-font-weight text-center mb-4">My Services</h2>
+        <p class="text-gray-500 text-center mb-6">I offer creative solutions tailored to elevate your brand—from standout visuals to strategic storytelling.</p>
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 p-4 max-w-7xl mx-auto">
           <!-- Card 1 -->
          <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
