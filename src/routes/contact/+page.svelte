@@ -14,7 +14,7 @@
     <div class="w-full md:w-1/2">
       <h1 class="text-4xl font-bold mb-4">Contact</h1>
       <p class="text-lg text-gray-700 mb-8">
-        Thanks for dropping by! For project inquiries, collaborations, or commissions, you can reach me at:
+        Thanks for dropping by! For project inquiries, collaborations, or job opportunities, you can reach me at:
       </p>
 
       <div class="space-y-6">
