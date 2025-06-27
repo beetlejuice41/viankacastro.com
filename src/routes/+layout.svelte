@@ -16,10 +16,10 @@ p = padding
 -->
 
 <div class="bg-primary-fifty text-primary-ninefifty">
-	<div class="flex flex-row justify-between items-center p-6 sticky top-0 z-50 bg-primary-fifty">
+	<div class="flex flex-row justify-between md:justify-around items-center p-6 sticky top-0 z-50 bg-primary-fifty">
   <!-- Logo -->
-  <a href="/" class="h-10 w-10" onclick={() => isOpen = false}>
-    <img src="https://s3clients.krokismedia.com/viankacastro/main-logomark.svg" class="h-10 w-10" alt="logo">
+  <a href="/" class="" onclick={() => isOpen = false}>
+    <img src="https://r2.viankacastro.com/logos/logo%20-%20main%20-%20with%20text.svg" class="h-15 w-auto" alt="logo">
   </a>
 
   <!-- Desktop Nav (shown from md and up) -->
