@@ -1,4 +1,4 @@
-<main class="app">
+<main class="app md:pb-16 lg:pb-20">
     <section class="flex flex-col md:h-[70vh] md:flex-row w-full h-auto px-4 sm:px-6 md:px-12 lg:px-16 xl:px-24 2xl:px-32 py-12 max-w-screen-2xl mx-auto">
   <!-- Right Side: Image on desktop, shown first on mobile -->
         <div class="order-1 md:order-2 w-full md:w-1/2 h-64 md:h-full p-4 gap-8">
@@ -13,7 +13,7 @@
     </section>
 
 
-        <div class="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch -mt-16">
+        <div class="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch -mt-16 lg:h-screen">
         <!-- Left Column -->
             <div class="flex flex-col space-y-4">
             <!-- Horizontal Image -->
