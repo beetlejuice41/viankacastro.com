@@ -15,7 +15,7 @@
                 <h3 class="font-semibold text-lg">Avante Guard Logo Rebranding</h3>
                 <p class="text-sm text-gray-600 line-clamp-2">Avante-Guard is a production company specializing in high-quality video content. Prior to consultation, the business already had an established identity, which I've only worked around it to accompany them into the revision of the logo.</p>
                 <!-- "View Project" button, need to revise! -->
-                <a href="/portfolio" class="text-sm font-medium text-secondary-shade hover:underline"> View Case Study →
+                <a href="/casestudy/avanteguard" class="text-sm font-medium text-secondary-shade hover:underline"> View Case Study →
                 </a>
               </div>
             </div>
