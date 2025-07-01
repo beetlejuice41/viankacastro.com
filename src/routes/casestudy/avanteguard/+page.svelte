@@ -112,9 +112,9 @@
     </ul>
   </div>
     </div>
-    <div class="w-full">
+    <div class="w-full text-center">
         <img src="https://r2.viankacastro.com/casestudy%20folder/sketches.png" alt="" class="w-full object-cover py-6">
-        <ul class="list-disc pl-5">
+        <ul class="pl-5">
       <li class="text-primary-eight">
         🟡 The client initially leaned toward the first logo from Round 1 (yellow highlight).
       </li>
