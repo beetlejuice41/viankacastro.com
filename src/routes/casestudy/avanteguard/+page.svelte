@@ -1,7 +1,13 @@
+<script>
+  document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+  });
+</script>
+
 <main class="app md:pb-16 lg:pb-20">
     <!-- cover photo -->
     <div class="flex justify-center w-full p-6 md:h-[60vh] max-w-7xl mx-auto">
-        <img src="https://r2.viankacastro.com/casestudy%20folder/ag-casestudy-banner-with-text.jpg" alt="banner" class="w-full object-cover">
+        <img src="https://r2.viankacastro.com/casestudy%20folder/ag-casestudy-banner-with-text.jpg" alt="banner" class="w-full object-cover select-none pointer-events-none">
     </div>
     <!-- project overview -->
 <div class="flex flex-col md:flex-row md:gap-4 px-6 py-6 md:px-10 lg:px-20 max-w-7xl mx-auto ">
@@ -63,9 +69,9 @@
     <blockquote class="text-2xl md:text-3xl italic text-primary-eight leading-relaxed max-w-3xl mx-auto">
   “We want something that looks premiere, artistic, independent, luxurious, geometric, and sharp.”
 </blockquote>
-    <img src="https://r2.viankacastro.com/casestudy%20folder/AG%20-Previous-logo.png" alt="previous-logo" class="">
+    <img src="https://r2.viankacastro.com/casestudy%20folder/AG%20-Previous-logo.png" alt="previous-logo" class="select-none pointer-events-none">
     <p class="text-primary-eight">Moodboard presented by client:</p>
-    <img src="https://r2.viankacastro.com/casestudy%20folder/moodboard-AG.png" alt="logo-moodboard-ag" class="">
+    <img src="https://r2.viankacastro.com/casestudy%20folder/moodboard-AG.png" alt="logo-moodboard-ag" class="select-none pointer-events-none">
   </div>
   
 </div>
@@ -113,7 +119,7 @@
   </div>
     </div>
     <div class="w-full text-center">
-        <img src="https://r2.viankacastro.com/casestudy%20folder/sketches.png" alt="" class="w-full object-cover py-6">
+        <img src="https://r2.viankacastro.com/casestudy%20folder/sketches.png" alt="" class="w-full object-cover py-6 select-none pointer-events-none">
         <ul class="pl-5">
       <li class="text-primary-eight">
         🟡 The client initially leaned toward the first logo from Round 1 (yellow highlight).
@@ -143,7 +149,7 @@
     <p class="text-primary-eight">
       The final design consists of five variations of the main logo: The main logo, Logotype, for Cinema and Films, for Music, and for Fine Arts. The following is presented below: 
     </p> 
-    <img src="https://r2.viankacastro.com/casestudy%20folder/AG%20Thumbnaill.png" alt="" class="">
+    <img src="https://r2.viankacastro.com/casestudy%20folder/AG%20Thumbnaill.png" alt="" class="select-none pointer-events-none">
   </div>
 </div>
 <!-- LOGO APPLICATION -->
@@ -196,7 +202,7 @@ Each content category uses a matching logo variation (e.g., AG + Film for cinema
     <h2 class="text-xl heading-font-weight text-secondary-shade">
       Results and Impact
     </h2>
-    <img src="https://r2.viankacastro.com/casestudy%20folder/AG-Instagram.png" alt="instagram-results-growth" class="">
+    <img src="https://r2.viankacastro.com/casestudy%20folder/AG-Instagram.png" alt="instagram-results-growth" class="select-none pointer-events-none">
     <p class="text-primary-eight">The rebranding project wrapped in September 2022.</p>
     <p class="text-primary-eight">According to TrendHero.io, the brand’s Instagram had:</p>
         <ul class="list-disc pl-5 text-primary-eight">
