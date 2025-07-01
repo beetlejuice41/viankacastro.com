@@ -36,6 +36,7 @@
     --color-secondary-ninefifty: #7a0045;
     --color-backup-highlight: #d4d8f0;
     --color-neutral:#dfe0ff;
+    --color-butter-yellow:#FFFACD;
 }
 
 @font-face {
@@ -53,5 +54,8 @@
     --base-font-family: "Albert Sans Variable", "sans-serif";
 }
 
-
+::selection {
+    background-color: #FFD6E8; /* your custom highlight color */
+    color: #1F2937; /* your custom text color */
+  }
 /*  */
