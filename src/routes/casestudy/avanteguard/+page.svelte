@@ -2,6 +2,13 @@
   document.addEventListener("contextmenu", function (e) {
     e.preventDefault();
   });
+
+  const items = [
+    { img: "https://r2.viankacastro.com/casestudy%20folder/application.png", desc: "I submitted a first pitch with 3 different logo designs." },
+    { img: "https://r2.viankacastro.com/casestudy%20folder/choice.png", desc: "The client chose one to iterate on — these tweaks are called versions." },
+    { img: "https://r2.viankacastro.com/casestudy%20folder/change.png", desc: "If they wanted more options beyond the initial 3, I created another round of 3 new logos." },
+    { img: "https://r2.viankacastro.com/casestudy%20folder/stars.png", desc: "Once a direction was locked in, I kept iterating until we arrived at the final logo." },
+  ];
 </script>
 
 <main class="app md:pb-16 lg:pb-20">
@@ -92,31 +99,24 @@
   
 </div>
 <div class="flex flex-col gap-6 px-6 py-6 md:px-10 lg:px-20 max-w-7xl mx-auto">
-    <div class="bg-primary-hundred flex flex-col md:flex-row gap-6 px-6 py-6 md:px-10 lg:px-20 max-w-7xl mx-auto">
+    <div class="bg-primary-hundred flex flex-col gap-6 px-6 py-6 md:px-10 lg:px-20 max-w-7xl mx-auto">
   <!-- Heading -->
-  <div class="md:w-3/4">
-    <h3 class="heading-font-weight text-2xl text-primary-shade text-center md:text-left">
+  <div class="">
+    <h3 class="heading-font-weight text-2xl text-primary-shade text-center">
       The process and breakdown of the iteration of logo and feedback from the client
     </h3>
   </div>
 
   <!-- List -->
-  <div class="md:w-full">
-    <ul class="list-disc pl-5">
-      <li class="text-primary-eight">
-        I submitted a first pitch with 3 different logo designs.
-      </li>
-      <li class="text-primary-eight">
-        The client chose one to iterate on — these tweaks are called versions.
-      </li>
-      <li class="text-primary-eight">
-        If they wanted more options beyond the initial 3, I created another round of 3 new logos.
-      </li>
-      <li class="text-primary-eight">
-        Once a direction was locked in, I kept iterating until we arrived at the final logo.
-      </li>
-    </ul>
-  </div>
+      <div class="flex max-md:flex-col items-center justify-between">
+  {#each items as item, index (item)}
+    <div class="flex flex-col items-center text-center relative">
+      <img src={item.img} alt={item.desc}
+        class="w-24 h-24 object-cover mb-2 z-10" />
+      <p class="text-sm text-gray-700">{item.desc}</p>
+    </div>
+  {/each}
+</div>
     </div>
     <div class="w-full text-center">
         <img src="https://r2.viankacastro.com/casestudy%20folder/sketches.png" alt="" class="w-full object-cover py-6 select-none pointer-events-none">
