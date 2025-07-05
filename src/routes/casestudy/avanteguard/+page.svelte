@@ -99,7 +99,7 @@
   
 </div>
 <div class="flex flex-col gap-6 px-6 py-6 md:px-10 lg:px-20 max-w-7xl mx-auto">
-    <div class="bg-primary-hundred flex flex-col gap-6 px-6 py-6 md:px-10 lg:px-20 max-w-7xl mx-auto">
+    <div class="bg-primary-fifty rounded-2xl shadow-md flex flex-col gap-6 px-6 py-6 md:px-10 lg:px-20 max-w-7xl mx-auto">
   <!-- Heading -->
   <div class="">
     <h3 class="heading-font-weight text-2xl text-primary-shade text-center">
