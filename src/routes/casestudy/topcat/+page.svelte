@@ -85,87 +85,59 @@
     <div class="flex flex-col md:flex-row flex-wrap">
         <!-- Facebook Post Embed -->
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/posts/pfbid02P9aFM4m8E413j399G526eGAevGASAefup1qxE7qbmQAEsxfCkdLqLfw8KSVrMz6Al"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fposts%2Fpfbid02P9aFM4m8E413j399G526eGAevGASAefup1qxE7qbmQAEsxfCkdLqLfw8KSVrMz6Al&show_text=true&width=500" width="500" height="680" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
          <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/posts/pfbid02bKQ6QucYHF2x4FMSWDQBfuABPbxjWe9GDyktC32UGqSXBw7exabmBeyRCXcXnPusl"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fposts%2Fpfbid02bKQ6QucYHF2x4FMSWDQBfuABPbxjWe9GDyktC32UGqSXBw7exabmBeyRCXcXnPusl&show_text=true&width=500" width="500" height="671" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/posts/pfbid02yDWezhYMNoPka7htpErUc86Aj9UCeTWnoLuem2s5cQ7SnsPtNLmxNDKXE2NpZZ92l"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fposts%2Fpfbid0uBuwWtLnhuw3VPTswQ9yezRr4uPtDVvR5rEcLeSM4sL3So9Z16F988rqdqrgywK9l&show_text=true&width=500" width="500" height="735" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/posts/pfbid02UoRT6EqTMK6RH65KK5YMXF4SKvftPx1Cs8LXj2Pkvxbrt38WVvFvz741uABJrUial"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fposts%2Fpfbid0QmpjcRdtgSrS6HHcq7YSQfb8BUyFCBY8EtoTeGZi3VprA15gMkwx8YssPT7EihYFl&show_text=true&width=500" width="500" height="660" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
     </div>
     <h1 class="flex flex-row gap-2 text-secondary-three heading-font-weight">🎞️ Reels, Dynamic posts, and Promotion of E-commerce platforms</h1>
     <div class="flex flex-col md:flex-row flex-wrap">
         <!-- Facebook Post Embed -->
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/videos/521684050288857"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fvideos%2F521684050288857%2F&show_text=true&width=476&t=0" width="500" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
         </div>
          <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/videos/340062079134279"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fvideos%2F340062079134279%2F&show_text=true&width=380&t=0" width="500" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/videos/511648991794453"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fvideos%2F511648991794453%2F&show_text=true&width=476&t=0" width="500" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/videos/578048654548209"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fvideos%2F578048654548209%2F&show_text=true&width=380&t=0" width="500" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/videos/1757890931694527"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fvideos%2F1757890931694527%2F&show_text=true&width=356&t=0" width="500" height="900" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/videos/610129794878296"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fvideos%2F610129794878296%2F&show_text=true&width=380&t=0" width="500" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
         </div>
     </div>
     <h1 class="flex flex-row gap-2 text-secondary-three heading-font-weight">📅 Monthly themes and pet-specific observances</h1>
     <div class="flex flex-col md:flex-row flex-wrap">
         <!-- Facebook Post Embed -->
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/posts/pfbid02hJFSmM1ewWowuiUAUfCgutpzh5gRjdWXmdSx5B5ZWfR3ZCpH2P8jattxPFKqWnHVl"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fposts%2Fpfbid0dGejHXp6GdnpvFXBeJuZiYTZdkXVKGjTLgD9iThAGNsMM3pPMBNhusVQK1jXvxQwl&show_text=true&width=500" width="500" height="690" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
          <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/posts/pfbid0Tdw1RSwztcfZT4hesx7QLcgGoLPAaa1eviHRZJntTmfDVSMXY4534kMoC7rUriVql"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fposts%2Fpfbid0Tdw1RSwztcfZT4hesx7QLcgGoLPAaa1eviHRZJntTmfDVSMXY4534kMoC7rUriVql&show_text=true&width=500" width="500" height="718" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/posts/pfbid02bFU4dcSerdJ9Cfrq993PKwSgB1sLLVgQNbXFUN7FdYAmhHXCL9cMaMGaH7PZrW65l"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fposts%2Fpfbid02bFU4dcSerdJ9Cfrq993PKwSgB1sLLVgQNbXFUN7FdYAmhHXCL9cMaMGaH7PZrW65l&show_text=true&width=500" width="500" height="654" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/posts/pfbid0QbtGuWgCX54UGsoQXw2juMs29FKuNxbceMzznkQW7NNZKypxudB5Gf6Z5WkV86z6l"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fposts%2Fpfbid02TyNTXY2pYmw9vxvV16vrh1PF3FdNRC9n3sbJmuJ8sewF3BiqodijWbXmDBaUvbCsl&show_text=true&width=500" width="500" height="654" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
     </div>
   </div>
 </div>
-<!------------------- DESIGN PROCESS ---------------->
+<!------------------- ENGAGEMENT HIGHLIGHT ---------------->
 <div class="flex flex-col md:flex-row md:gap-4 px-6 py-6 md:px-10 lg:px-20 max-w-7xl mx-auto ">
   <div class="text-xs md:items-start text-secondary-four ">
     TOP POSTS
@@ -182,9 +154,7 @@
     <blockquote class=" pl-4 italic text-gray-700 p-4 rounded-md">
         “Understanding your cat’s language” – This post resonated with the audience, offering valuable insight into feline behavior. It received the most likes, driving strong organic reach.
         </blockquote>
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/videos/2266043436933659"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fvideos%2F2266043436933659%2F&show_text=true&width=476&t=0" width="476" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
         </div>
 <div class="w-full max-w-xl mx-auto py-4 md:w-1/2">
         <p class="text-primary-eight">
@@ -193,9 +163,7 @@
         <blockquote class="pl-4 italic text-gray-700 p-4 rounded-md">
           “World Rabies Day - Vaccination for Cats” – This informative post sparked meaningful conversations in the comments and became the most commented piece on the page, highlighting the community’s interest in responsible pet care.
         </blockquote>
-        <div class="fb-post"
-       data-href="https://www.facebook.com/TopCatPH/posts/pfbid0Tdw1RSwztcfZT4hesx7QLcgGoLPAaa1eviHRZJntTmfDVSMXY4534kMoC7rUriVql"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTopCatPH%2Fposts%2Fpfbid0Tdw1RSwztcfZT4hesx7QLcgGoLPAaa1eviHRZJntTmfDVSMXY4534kMoC7rUriVql&show_text=true&width=500" width="500" height="718" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
   </div>
 </div> 

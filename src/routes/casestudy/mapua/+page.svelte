@@ -192,7 +192,7 @@
     </div>
     <h1 class="flex flex-row gap-2 text-secondary-three heading-font-weight">📱 Tiktok Reels</h1>
     <div class="flex flex-col md:flex-row flex-wrap">
-        <!-- Facebook Post Embed -->
+        <!-- Tiktok embed -->
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
         <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@mapuauniv/video/7163280020809583899" data-video-id="7163280020809583899" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@mapuauniv" href="https://www.tiktok.com/@mapuauniv?refer=embed">@mapuauniv</a> As part of the University’s celebration in entering the Times Higher Education (THE) World Rankings 2023, Mapúa hosted a Thanksgiving Gala last Thursday, October 27, 2022 to pay tribute to all students, teachers, support staff, alumni, officers, and trustees who contributed and helped in achieving the great milestone. <a title="vivamapua" target="_blank" href="https://www.tiktok.com/tag/vivamapua?refer=embed">#VivaMapua</a> <a title="theunirankings" target="_blank" href="https://www.tiktok.com/tag/theunirankings?refer=embed">#theunirankings</a> <a target="_blank" title="♬ original sound  - Mapúa University" href="https://www.tiktok.com/music/original-sound-Mapúa-University-7163280170215492379?refer=embed">♬ original sound  - Mapúa University</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
         </div>
