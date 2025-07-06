@@ -20,12 +20,6 @@
     }
   });
 
-  const items = [
-    { img: "https://r2.viankacastro.com/casestudy%20folder/application.png", desc: "I submitted a first pitch with 3 different logo designs." },
-    { img: "https://r2.viankacastro.com/casestudy%20folder/choice.png", desc: "The client chose one to iterate on — these tweaks are called versions." },
-    { img: "https://r2.viankacastro.com/casestudy%20folder/change.png", desc: "If they wanted more options beyond the initial 3, I created another round of 3 new logos." },
-    { img: "https://r2.viankacastro.com/casestudy%20folder/stars.png", desc: "Once a direction was locked in, I kept iterating until we arrived at the final logo." },
-  ];
 </script>
 
 <main class="app md:pb-16 lg:pb-20">

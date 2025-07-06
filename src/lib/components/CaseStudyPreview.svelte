@@ -25,7 +25,7 @@
                 <h3 class="font-semibold text-lg line-clamp-1">Mapúa University: All Works (Social Media, Print Works, and Promotions)</h3>
                 <p class="text-sm text-gray-600 line-clamp-2 break-words">Mapúa University is a prestigious university in the Philippines. I was in charge of the social media's content and other physical graphic works.</p>
                 <!-- "View Project" button, need to revise! -->
-                <a href="/portfolio" class="text-sm font-medium text-secondary-shade hover:underline"> View Case Study →
+                <a href="/casestudy/mapua" class="text-sm font-medium text-secondary-shade hover:underline"> View Case Study →
                 </a>
               </div>
             </div>

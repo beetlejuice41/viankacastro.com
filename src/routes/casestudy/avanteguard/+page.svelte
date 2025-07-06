@@ -1,4 +1,4 @@
-<script>
+<script async src="//www.instagram.com/embed.js">
   document.addEventListener("contextmenu", function (e) {
     e.preventDefault();
   });
@@ -185,9 +185,6 @@ Each content category uses a matching logo variation (e.g., AG + Film for cinema
       style="background:#FFF; border:0; margin: 0 auto; max-width:540px; width:100%;">
     </blockquote>
   </div>
-
-  <!-- Only include once per page -->
-  <script async src="//www.instagram.com/embed.js"></script>
 </div> 
   </div>
 </div>
