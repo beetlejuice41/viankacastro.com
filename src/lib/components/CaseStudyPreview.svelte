@@ -20,10 +20,10 @@
               </div>
             </div>
             <div class="min-w-[80%] snap-start bg-white rounded-xl shadow-md overflow-hidden aspect-[4/5] md:aspect-auto flex flex-col">
-              <img src="https://r2.viankacastro.com/logos/school%20of%20health%20sciences.png" alt="Project 2" class="w-full h-2/3 object-cover">
+              <img src="https://r2.viankacastro.com/Mapua-Case-Study-Front.jpg" alt="Project 2" class="w-full h-2/3 object-cover">
               <div class="p-4 flex flex-col flex-1 justify-evenly">
-                <h3 class="font-semibold text-lg line-clamp-1">School of Health and Sciences Logo</h3>
-                <p class="text-sm text-gray-600 line-clamp-2 break-words">School of Health Sciences is a relatively new department in Mapúa University that is in collaboration with Arizona State University. It offers BS Biology, BS Medical Technology, AB Psychology and BS Psychology. More information here.</p>
+                <h3 class="font-semibold text-lg line-clamp-1">Mapúa University: All Works (Social Media, Print Works, and Promotions)</h3>
+                <p class="text-sm text-gray-600 line-clamp-2 break-words">Mapúa University is a prestigious university in the Philippines. I was in charge of the social media's content and other physical graphic works.</p>
                 <!-- "View Project" button, need to revise! -->
                 <a href="/portfolio" class="text-sm font-medium text-secondary-shade hover:underline"> View Case Study →
                 </a>
