@@ -35,7 +35,7 @@
                 <h3 class="font-semibold text-lg line-clamp-1">TopCat PH: Facebook Social Media Growth</h3>
                 <p class="text-sm text-gray-600 line-clamp-2">TopCat is the feline-focused sister brand of TopBreed, offering premium, science-backed nutrition tailored specifically for cats.</p>
                 <!-- "View Project" button, need to revise! -->
-                <a href="/portfolio" class="text-sm font-medium text-secondary-shade hover:underline"> View Case Study →
+                <a href="/casestudy/topcat" class="text-sm font-medium text-secondary-shade hover:underline"> View Case Study →
                 </a>
               </div>
             </div>
