@@ -1,7 +1,4 @@
-<script async src="//www.instagram.com/embed.js">
-  document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-  });
+<script >
 
   const items = [
     { img: "https://r2.viankacastro.com/casestudy%20folder/application.png", desc: "I submitted a first pitch with 3 different logo designs." },

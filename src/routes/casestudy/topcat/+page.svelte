@@ -1,24 +1,4 @@
 <script>
-  document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-  });
-
-  import { onMount } from 'svelte';
-
-  onMount(() => {
-    // Only load SDK once
-    if (!window.FB) {
-      const script = document.createElement('script');
-      script.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0';
-      script.async = true;
-      script.defer = true;
-      script.crossOrigin = 'anonymous';
-      document.body.appendChild(script);
-    } else {
-      // Re-render Facebook plugin if already loaded
-      window.FB.XFBML.parse();
-    }
-  });
 
 </script>
 

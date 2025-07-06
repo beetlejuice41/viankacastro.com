@@ -1,24 +1,24 @@
 <script>
-  document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-  });
+//   document.addEventListener("contextmenu", function (e) {
+//     e.preventDefault();
+//   });
 
-  import { onMount } from 'svelte';
+//   import { onMount } from 'svelte';
 
-  onMount(() => {
-    // Only load SDK once
-    if (!window.FB) {
-      const script = document.createElement('script');
-      script.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0';
-      script.async = true;
-      script.defer = true;
-      script.crossOrigin = 'anonymous';
-      document.body.appendChild(script);
-    } else {
-      // Re-render Facebook plugin if already loaded
-      window.FB.XFBML.parse();
-    }
-  });
+//   onMount(() => {
+//     // Only load SDK once
+//     if (!window.FB) {
+//       const script = document.createElement('script');
+//       script.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0';
+//       script.async = true;
+//       script.defer = true;
+//       script.crossOrigin = 'anonymous';
+//       document.body.appendChild(script);
+//     } else {
+//       // Re-render Facebook plugin if already loaded
+//       window.FB.XFBML.parse();
+//     }
+//   });
 
 </script>
 
@@ -105,34 +105,22 @@
     <div class="flex flex-col md:flex-row flex-wrap">
         <!-- Facebook Post Embed -->
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/photos/pb.100064800395459.-2207520000/10160253348094002/?type=3"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid02rGRCVtTJc5D4qXJwPjewn3unKq18RYKfQcafVPZ1K5QquAmTdDNq9a6q1F5h4xwGl&show_text=true&width=500" width="500" height="808" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
          <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/photos/pb.100064800395459.-2207520000/10160478746309002/?type=3"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid0AoV5CdWABPfLsZ6vPVXSLjF1LAdRJ6Q7w6WWiQYuEPUfaRbLxPJC7mR2s7dcGwHnl&show_text=true&width=500" width="500" height="693" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/photos/pb.100064800395459.-2207520000/10160401618929002/?type=3"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid02XPoeeYkDZEbDJFXTnssaKrr7BgpsPPNw1ZrFS8yX6qSQ3owkghwvvnEHPuJRo79rl&show_text=true&width=500" width="500" height="631" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/photos/pb.100064800395459.-2207520000/10160444634864002/?type=3"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid0hsT83QzQSMLuLdM1u32x5xj6yUJczFbPjZFCimkh3dEQyGwSbdgnL3TCprpAK5Pil&show_text=true&width=500" width="500" height="712" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/photos/pb.100064800395459.-2207520000/10160577134434002/?type=3"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid02ZCYAC9BBhnhmNnrxEafAq5vGqJtq63qBm7yYWuv2rks1ShWL1muJJH3XTF5xWsT6l&show_text=true&width=500" width="500" height="674" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/photo.php?fbid=580554090781266&set=pb.100064800395459.-2207520000&type=3"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid02jNGmLYkAu8XzfA7gL6tT68KpmyoUUErnhXZyqUSjRMJnKptRgY6DWssMUDJ4TujTl&show_text=true&width=500" width="500" height="612" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
     </div>
     <h1 class="flex flex-row gap-2 text-secondary-three heading-font-weight">🏀 Seasonal Subcampaign: NCCA Season 98 (For Basketball and Volleyball Teams) </h1>
@@ -140,24 +128,16 @@
     <div class="flex flex-col md:flex-row flex-wrap">
         <!-- Facebook Post Embed -->
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/posts/pfbid0znNnPn2742q4nVgjzdsjXnnXiMJsRHKJ9t3YiSwWnD54cgkTqo4MrEEUK9LqrLyVl"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid0znNnPn2742q4nVgjzdsjXnnXiMJsRHKJ9t3YiSwWnD54cgkTqo4MrEEUK9LqrLyVl&show_text=true&width=500" width="500" height="648" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
          <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/posts/pfbid0ZpgowDFeaqYdrbt1sUWbWYqinJLpktPR7WVvonsmp3peZLXPZBBfAjjmWLN3rVipl"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid02dg8X7tBUSMDBZYSkmtR2PMg1mFFbpToD4SezBeTYJT2RpTH7gFZJPARRMGJBqMhhl&show_text=true&width=500" width="500" height="654" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/posts/pfbid0XQ8iGNuhmsx1rioaLaZjDgT34gXQuFhLXV5FX1weXzrWu3qEHnzwAtUR3E6hZAhNl"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid02bFaRT3qXdE6Uvnkt7Dtb4jkg5TpX7Mq9Dfn5Jsew1KyYx99HdgwgHN2VyHSpcFTWl&show_text=true&width=500" width="500" height="667" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/posts/pfbid0HUk5C49tLXzN9BQdL5rTWHeZqC1pfR1G3Ceo4h1zNwanrwG5BmYD9kXkVWXA486hl"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid0HUk5C49tLXzN9BQdL5rTWHeZqC1pfR1G3Ceo4h1zNwanrwG5BmYD9kXkVWXA486hl&show_text=true&width=500" width="500" height="668" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
     </div>
     <h1 class="flex flex-row gap-2 text-secondary-three heading-font-weight">📅 Seasonal subcampaign: Paskong Mapúan</h1>
@@ -165,14 +145,10 @@
     <div class="flex flex-col md:flex-row flex-wrap">
         <!-- Facebook Post Embed -->
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/photos/pb.100064800395459.-2207520000/10160483322579002/?type=3"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid023RbfuMZ1PvpdtbYmYWajjapHtKsudfEkaZ2yHejSGtRNz8eTvK49wexeTZdSt862l&show_text=true&width=500" width="500" height="610" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
          <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/videos/675776444007481"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fvideos%2F675776444007481%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
         </div>
     </div>
     <h1 class="flex flex-row gap-2 text-secondary-three heading-font-weight">🎮 Subcampaign: Cardinal E-sports for promoting new course Game Development</h1>
@@ -180,24 +156,16 @@
     <div class="flex flex-col md:flex-row flex-wrap">
         <!-- Facebook Post Embed -->
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/posts/pfbid07D15zW5J5bWkGDDXvPY1XpUhLoKN2EkBmB57Mwva7CVvYPMkVbqU1exFoS4iUTozl"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid07D15zW5J5bWkGDDXvPY1XpUhLoKN2EkBmB57Mwva7CVvYPMkVbqU1exFoS4iUTozl&show_text=true&width=500" width="500" height="773" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
          <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/posts/pfbid02fvxsigMUdALgn1ijgJdzoebcaZ5V4N9fAriQdEEbXuQD7nAGoLxeFNYnEFDSvv1Vl"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid02fvxsigMUdALgn1ijgJdzoebcaZ5V4N9fAriQdEEbXuQD7nAGoLxeFNYnEFDSvv1Vl&show_text=true&width=500" width="500" height="690" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/posts/pfbid02LDeH8x2uXG9R5rwVhnRpKjF5KAuRvqXKwkpNf1ScYqKLhJArmNqySKKbUXeS2x4nl"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid02LDeH8x2uXG9R5rwVhnRpKjF5KAuRvqXKwkpNf1ScYqKLhJArmNqySKKbUXeS2x4nl&show_text=true&width=500" width="500" height="648" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/videos/880188736605233"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fvideos%2F880188736605233%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
         </div>
     </div>
     <h1 class="flex flex-row gap-2 text-secondary-three heading-font-weight">❤️ Seasonal Subcampaign: Pusong Mapúan</h1>
@@ -205,14 +173,10 @@
     <div class="flex flex-col md:flex-row flex-wrap">
         <!-- Facebook Post Embed -->
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/videos/917187382795691"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fvideos%2F917187382795691%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
         </div>
          <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/videos/1182696905708708"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=322&href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fvideos%2F1182696905708708%2F&show_text=true&width=560&t=0" width="560" height="437" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
         </div>
     </div>
     <h1 class="flex flex-row gap-2 text-secondary-three heading-font-weight">📚 Seasonal Campaign: Mapua Open Campus</h1>
@@ -220,14 +184,10 @@
     <div class="flex flex-col md:flex-row flex-wrap">
         <!-- Facebook Post Embed -->
         <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/posts/pfbid0emaiZcwbQpfqnZxZMz4RDwDEVK4HyFTNUSDgtVzqG6zF2nm39kmtLGrfLmYnr4d9l"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid0emaiZcwbQpfqnZxZMz4RDwDEVK4HyFTNUSDgtVzqG6zF2nm39kmtLGrfLmYnr4d9l&show_text=true&width=500" width="500" height="737" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
          <div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
-        <div class="fb-post"
-       data-href="https://www.facebook.com/MapuaUniv/posts/pfbid03UsjRRTJqcHASE52NS7BgeK94w4VvnYXqzQZFdpnnSN581L1toPfRgZd1KR5fH7kl"
-       data-width="500"></div>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMapuaUniv%2Fposts%2Fpfbid027LKSc6P8h3BbGedy8uggvVmSA3SDyHhYcthqNLq6HW7TgihDtnMygcmcU28vC7kKl&show_text=true&width=500" width="500" height="831" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
     </div>
   </div>
@@ -250,7 +210,5 @@
     <img src="https://r2.viankacastro.com/Mapua-Case-Study/ftri%20banner.png" alt="print-banner-two" class="h-[50vh] object-cover">
 </div> 
 </div>
-
 <!-- RESULTS AND IMPACT -->
-
 </main>
