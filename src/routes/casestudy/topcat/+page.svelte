@@ -200,26 +200,25 @@
     <h2 class="text-xl heading-font-weight text-secondary-shade">
       Engagement Highlight
     </h2>
-
+<div class="flex flex-col md:flex-row flex-wrap">
+<div class="w-full max-w-xl mx-auto py-4 md:w-1/2">
     <p class="text-primary-eight">
       Post with the most likes:
     </p>
-    <blockquote class="border-l-4 border-primary pl-4 italic text-gray-700 p-4 rounded-md">
-  “Understanding your cat’s language” – This post resonated with the audience, offering valuable insight into feline behavior. It received the most likes, driving strong organic reach.
-</blockquote>
-    <p class="text-primary-eight">
-      Post with the most comments that sparked conversation:
-    </p>
-    <blockquote class="border-l-4 border-primary pl-4 italic text-gray-700 p-4 rounded-md">
-  “World Rabies Day - Vaccination for Cats” – This informative post sparked meaningful conversations in the comments and became the most commented piece on the page, highlighting the community’s interest in responsible pet care.
-</blockquote>
-<div class="flex flex-col md:flex-row flex-wrap">
-<div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
+    <blockquote class=" pl-4 italic text-gray-700 p-4 rounded-md">
+        “Understanding your cat’s language” – This post resonated with the audience, offering valuable insight into feline behavior. It received the most likes, driving strong organic reach.
+        </blockquote>
         <div class="fb-post"
        data-href="https://www.facebook.com/TopCatPH/videos/2266043436933659"
        data-width="500"></div>
         </div>
-<div class="w-full max-w-xl mx-auto py-8 md:w-1/2">
+<div class="w-full max-w-xl mx-auto py-4 md:w-1/2">
+        <p class="text-primary-eight">
+      Post with the most comments that sparked conversation:
+        </p>
+        <blockquote class="pl-4 italic text-gray-700 p-4 rounded-md">
+          “World Rabies Day - Vaccination for Cats” – This informative post sparked meaningful conversations in the comments and became the most commented piece on the page, highlighting the community’s interest in responsible pet care.
+        </blockquote>
         <div class="fb-post"
        data-href="https://www.facebook.com/TopCatPH/posts/pfbid0Tdw1RSwztcfZT4hesx7QLcgGoLPAaa1eviHRZJntTmfDVSMXY4534kMoC7rUriVql"
        data-width="500"></div>
